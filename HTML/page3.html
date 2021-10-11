@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Page 3</h1>
+    <a href="index.html">กลับหน้าหลัก</a>
+    <!-- รายการแบบใช้ตัวเลข order list :Ol -->
+    <!-- A => พิมพ์ใหญ่ a => พิมพ์เล็ก I => เลขโรมัน -->
+    <p>List 1</p>
+    <ol type="a">
+        <li>Honda</li>
+        <li>jazz</li>
+    </ol>
+    <!-- รายการแบบใช้สัญลักญณ์ Unorder list :Ul -->
+    <!-- disc => จุดสีดำ circle => จุดวงกลมโปร่ง square => สี่เหลี่ยมดำทึบ -->
+    <p>List 2</p>
+    <ul type="circle">
+        <li>honda</li>
+        <li>jazz</li>
+    </ul>
+
+    <!-- Table  -->
+    <h1>This Table</h1>
+    <table border="1" width="50%" bgcolor="green">
+        <thead>
+            <th>column1</th><th>column2</th><th>column3</th><th>column4</th>
+        </thead>
+        <tbody bgcolor="blue">
+            <tr>
+                <td>1</td><td>2</td><td>3</td><td>4</td>
+            </tr>
+            <tr>
+                <td>5</td><td>6</td><td>7</td><td>8</td>
+            </tr>
+            <tr>
+                <td>9</td><td>10</td><td>11</td><td bgcolor="yellow">12</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- HTML FORM -->
+    <h1 align="center">Form</h1>
+    <form>
+        <div>
+            <label for="firstname">ชื่อจริง</label>
+            <input type="text" name="fname" placeholder="กรุณาป้อนชื่อจริง" required>
+        </div>
+        <div>
+            <label for="lastname">นามสกุล</label>
+            <input type="text" name="lname" placeholder="กรุณาป้อนนามสกุล" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="กรุณาป้อนอีเมล" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="กรุณาป้อนรหัสผ่าน" required>
+        </div>
+        <div>
+            <label for="address">ที่อยู่</label>
+            <textarea name="address" id="" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="age">อายุ</label>
+            <input type="number" name="age" min="0" max="100" value="20">
+        </div>
+        <div>
+            <label for="date">วันเกิด</label>
+            <input type="date">
+        </div>
+        <div>
+            <label for="tel">tel</label>
+            <input type="tel">
+        </div>
+        <div>
+            <label for="color">สีที่ชอบ</label>
+            <input type="color">
+        </div>
+        <div>
+            <label for="edu">ระดับการศึกษา</label>
+            <select name="edu" id="">
+                <option value="ประถม">ประถม</option>
+                <option value="มัธยม">มัธยม</option>
+                <option value="ปริญญาตรี">ปริญญาตรี</option>
+            </select>
+        </div>
+        <div>
+            <label for="gender">เพศ</label>
+            <input type="radio" name="gender">ชาย
+            <input type="radio" name="gender">หญิง
+        </div>
+        <div>
+            <label for="faverite">สิ่งที่ชอบ</label>
+            <input type="checkbox" name="faverite">เล่นเกม
+            <input type="checkbox" name="faverite">เล่นดนตรี
+            <input type="checkbox" name="faverite">เล่นกีฬา
+        </div>
+        <div>
+            <label for="file">อัพโหลดเอกสาร</label>
+            <input type="file">
+        </div>
+        <div>
+            <label for="url">อัพโหลด URL</label>
+            <input type="url">
+        </div>
+        <div>
+            <input type="submit" value="บันทึกข้อมูล">
+            <button type="reset">ล้างข้อมูล</button>
+        </div>
+    </form>
+
+</body>
+</html>
