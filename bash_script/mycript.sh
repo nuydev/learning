@@ -11,6 +11,16 @@ echo Hello Script !
 #Letters, number, underscores
 # NAME="NUY"
 # echo "My name is ${NAME}"
+#integer
+# declare -i x=10
+# declare -i y=12
+# declare -i z
+# z=x+y
+# echo "z is " $z
+# ((x=10))
+# ((y=12))
+# ((z=x+y))
+# echo "z is " $z
 
 #USER INPUT
 # read -p "Enter your name: " NAME
