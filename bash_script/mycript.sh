@@ -5,6 +5,7 @@
 
 # ECHO COMMAND
 echo Hello Script !
+echo Hello My friend !
 
 #VARIABLES
 # Uppercase by convention
